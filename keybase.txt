@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/chavatte
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://chavatte.online
+  * I am chavatte (https://keybase.io/chavatte) on keybase.
+  * I have a public key ASBaPFKjcQpYSyoOp1HLnPB13WK9UfLHkK-1ETKERg3Nvgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a8de6e8f1965cc7607151d6d8f59d4892d978d3a7697e144e2aa7d9dfb60692a0a",
+      "host": "keybase.io",
+      "kid": "01205a3c52a3710a584b2a0ea751cb9cf075dd62bd51f2c790afb5113284460dcdbe0a",
+      "uid": "b1897779b6905459416b95bd125eec19",
+      "username": "chavatte"
+    },
+    "merkle_root": {
+      "ctime": 1629624397,
+      "hash": "242cdd295eb2b9b3bccf36cc19f3163bd95e1f9a875ce6898428a3be974e2703b88960d48214eb5aa5f5117cc78e2e49bdedd9f35ea2879c15c7c7d1a052c9d0",
+      "hash_meta": "a1260da27e3062fb18f6b03f9de9752ce9d767ea059fff187e9986983de3655c",
+      "seqno": 20612862
+    },
+    "service": {
+      "entropy": "AmwJQAOfyQg2yft9z4OE0dQV",
+      "hostname": "chavatte.online",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1629624458,
+  "expire_in": 504576000,
+  "prev": "ee1e4eaea9494d5f3b5553863eec63fb05f2d9c2586fa05833e42a38832ce9f2",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWjxSo3EKWEsqDqdRy5zwdd1ivVHyx5CvtREyhEYNzb4Kp3BheWxvYWTESpcCQ8Qg7h5OrqlJTV87VVOGPuxj+wXy2cJYb6BYM+QqOIMs6fLEIPoL9FyCfaskzN0cOgSBEMcFrkA3keNidmY93FGKHI/3AgHCo3NpZ8RA5JslGpbBv4xpfgI7fdEKiLvbXXNOS1K9NjBcv/YHG5nS4LeRBW+R6S3qoXbFsbOlSFMEho0DKdbqHOT6bActBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB66mIaP567F3YPYKLHrs67vNFt9VYS0zXAZmUk+rgJio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chavatte
+
+==================================================================
