@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[FreeCodeCamp] - Projeto 2: Formulário de pesquisa</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<div class="background">
+  <div class="container">
+    <header>
+      <h1 id="title">Pesquisa sobre segurança de dados</h1>
+      <p id="description">Sua participação é importante para melhorarmos a segurança de sistemas operacionais</p>
+    </header>
+
+    <form id="survey-form">
+      <div>
+        <label id="name-label" for="name" class="group">Nome e Sobrenome:</label>
+        <input type="text" name="name" id="name" class="control" placeholder="digite seu nome e sobrenome (obrigatório)"
+          required />
+      </div>
+      <div>
+        <label id="email-label" for="email" class="group">E-mail:</label>
+        <input type="email" name="email" id="email" class="control" placeholder="Digite seu e-mail (obrigatório)"
+          required />
+      </div>
+      <div>
+        <label id="number-label" for="number" class="group">Idade:</span></label>
+        <input type="number" name="age" id="number" min="10" max="99" class="control"
+          placeholder="Sua idade (opicional)" />
+      </div>
+      <div>
+        <p class="group">Dentre as opções listadas, qual delas descreve melhor a sua área de atuação</p>
+        <select id="dropdown" name="role" class="control" required>
+          <option disabled selected value>Selecione uma opção:</option>
+          <option value="eng_sof">Engenheiro de Software</option>
+          <option value="seg_ti">Analista de Segurança de Informação</option>
+          <option value="analista_sis">Analista de Sistemas</option>
+          <option value="admin_sis">Administrador de Sistemas</option>
+          <option value="admin_dbar">Administrador do Banco de Dados (DBA)</option>
+          <option value="gestor_ti">Gestor de Tecnologias da Informação</option>
+          <option value="arquiteto_soft">Arquiteto de Redes de Informática</option>
+          <option value="dev_games">Desenvolvedor de jogos digitais</option>
+          <option value="dev_comp">Desenvolvedor de Computador</option>
+          <option value="dev_web">Desenvolvedor Web</option>
+          <option value="dev_mobile">Desenvolvedor mobile</option>
+          <option value="outros">Outra/ Não especificada </option>
+        </select>
+      </div>
+
+      <div>
+        <p class="group">Qual o seu sistema operacional, selecione apenas o que mais utiliza no dia a dia</p>
+        <label>
+          <div>
+            <input name="system_user" value="windows" type="radio" class="radio" />Windows todas as versões
+        </label>
+      </div>
+      <div>
+        <label>
+          <input name="system_user" value="mac_os" type="radio" class="radio" />Mac Os todas as versões
+        </label>
+      </div>
+      <div>
+        <label>
+          <input name="system_user" value="linux" type="radio" class="radio" />Linux todas as distribuições
+        </label>
+      </div>
+      <div>
+        <label>
+          <input name="system_user" value="outros" type="radio" class="radio" />Outros / Não listado
+        </label>
+      </div>
+  </div>
+
+  <div>
+    <p class="group">
+      Como você atualiza seu sistema operacional:
+    </p>
+    <select id="most-like" name="mostLike" class="control" required>
+      <option disabled selected value>Sselecione a opção que melhor encaixa seu perfil:</option>
+      <option value="auto_default">Automaticamente - com a configuração padrão (default)</option>
+      <option value="auto_user_settings">Automaticamente - com ajustes personalizados nas configurações</option>
+      <option value="auto_disabled_user_settings">Não atualizo automaticamente - Faço de forma periódica para economizar
+        recursos da máquina</option>
+      <option value="disabled">Não atualizo - Deixo a opção desabilitada</option>
+    </select>
+  </div>
+
+  <div>
+    <p class="group">Você utiliza outro(s) recurso(s) de segurança adicional? (selecione toas as opções aplicáveis)
+    </p>
+    <div>
+      <label>
+        <input name="prefer" value="front-end-projects" type="checkbox" class="checkbox" />Firewall físico
+      </label>
+    </div>
+    <div>
+      <label>
+        <input name="prefer" value="back-end-projects" type="checkbox" class="checkbox" />Firewall logico
+      </label>
+    </div>
+    <div>
+      <label>
+        <input name="prefer" value="data-visualization" type="checkbox" class="checkbox" />Suíte de segurança
+      </label>
+    </div>
+    <div>
+      <label>
+        <input name="prefer" value="challenges" type="checkbox" class="checkbox" />Proteção contra ransoware
+      </label>
+    </div>
+    <div>
+      <label>
+        <input name="prefer" value="open-source-community" type="checkbox" class="checkbox" />Proteção contra
+        malwares
+      </label>
+    </div>
+    <div>
+      <label>
+        <input name="prefer" value="gitter-help-rooms" type="checkbox" class="checkbox" />Apenas as configurações
+        padrões do sistema
+      </label>
+    </div>
+
+    <div>
+      <p class="group">Você utiliza algum sistema de criptografia?</p>
+      <label>
+        <div>
+          <input name="cripto" value="yes" type="radio" class="radio" />sim
+      </label>
+    </div>
+    <div>
+      <label>
+        <input name="cripto" value="no" type="radio" class="radio" />não
+      </label>
+    </div>
+
+  </div>
+
+  <div>
+    <p class="group">Gostaria de comentar algo adicional ou mesmo sugestões ou críticas para melhorarmos esse
+      formulário?</p>
+    <textarea id="comments" class="textarea" name="comment"
+      placeholder="Digite seu comentário, sugestão ou crítica aqui..."></textarea>
+  </div>
+
+  <div>
+    <button type="submit" id="submit" class="submit group">
+      Enviar
+    </button>
+  </div>
+
+
+
+  </form>
+</div>
+
+</div>
+</body>
+
+</html>
+<script src='/scripts/bundle.js'></script>
+<script id="rendered-js">

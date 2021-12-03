@@ -1,0 +1,202 @@
+  body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+  }
+
+    #main {
+      background:white;
+    }
+
+
+      #title {
+        font-size: 2rem;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      h2 {
+        font-size:1.2rem;
+        text-align: center;
+        padding: 20px;
+      }
+
+      #img-div {
+        padding: 10px;
+        margin: 20px;
+      }
+
+      #image {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+      }
+      
+      #img-caption {
+        margin: 15px 0 5px 0;
+        text-align: center;
+      }
+
+      blockquote {
+        margin: 10px 50px 10px 50px; 
+        font-size: 1rem;
+        font-style: italic;
+      }
+
+      #citation {
+        margin: 0 50px 0 50px; 
+        text-align: center;
+      }
+
+      strong {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+
+      .tribute {
+        margin: 50px 50px 10px 50px; 
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      #tribute-link  {
+        color: black;
+        text-decoration: none;
+      }
+
+      #tribute-link:hover {
+        color: purple;
+      }
+
+
+      #headline {
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+
+
+      h3 {
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      section {      
+        margin-top: 50px;
+        padding: 20px;
+        align-items: center;
+        font-size: 1.1rem;
+
+      }
+
+      section p strong {
+        font-size: 1rem;
+        font-weight: 700;
+      }
+
+      #grid {
+        display: grid;
+        background-color: rgb(128, 128, 128, 0.4);
+        border-radius: 1rem;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+        grid-template-rows: auto; 
+        grid-template-columns: 20px auto 10px auto 20px;
+        align-content: center;
+        font-size: 0.8rem;
+      }
+
+      .item:nth-child(1) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+      
+      .item:nth-child(2) {
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+
+    @media screen and (min-width: 768px) {
+      #title {
+        font-size: 4rem;
+        line-height: 2.5;
+        text-align: center;
+      }
+
+      h2 {
+        font-size:2rem;
+        margin: 0 150px 0 150px;
+      }
+
+      #img-div {
+        padding: 10px;
+        margin: 50px 100px 50px 100px;    
+      }
+
+      blockquote {
+        margin: 50px 150px 10px 150px; 
+        font-size: 2rem;
+        font-style: italic;
+      }
+
+      #citation {
+        margin: 0 150px 50px 150px; 
+        text-align: center;
+      }
+
+      strong {
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      .tribute {
+        margin: 50px 50px 10px 50px; 
+        font-size: 1.8rem;
+        text-align: center;
+      }
+
+      #headline {
+        margin: 50px 0;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 800;
+      }
+
+      section {        
+        margin-top: 50px;
+        padding: 50px;
+        align-items: center;
+        font-size: 1.1rem;
+
+      }
+
+      #grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+        grid-template-rows: auto; 
+        grid-template-columns: 70px auto auto 70px;
+        align-content: center;
+        font-size: 1rem;
+      }
+
+      .item:nth-child(1) {
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+      
+      .item:nth-child(2) {
+        grid-column-start: 3;
+        grid-column-end: 4;
+      }
+
+      
+
+
+    }

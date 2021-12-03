@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[FreeCodeCamp] - Projeto 3: landing page para um produto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header">
+    <div>
+      <img id="header-img" src="./images/logo.png" alt="Blackbeard's padlock logo" />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#description">Descrição</a></li>
+        <li><a class="nav-link" href="#how-it-works">Como Funciona</a></li>
+        <li><a class="nav-link" href="#price">Preços</a></li>
+        <li><a class="nav-link" href="#newsletters">Newsletters</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="description">
+      <h2>Mantenha seu sistema sempre operante</h2>
+      <p>
+        Tanto os softwares como os hardwares high-end (última geração) estão sujeitos a erros.
+        O ideal é que sua máquina seja monitorada constantemente para evitar travamentos e interrupções do
+        sistema.
+      </p>
+      <h2>Monitoramento de redes</h2>
+      <p>
+        É nesse ponto que entram os softwares de monitoramento de redes e infraestrutura. Assim como o firewall,
+        essas ferramentas monitoram continuamente a infraestrutura de serviços e sistemas digitais de uma empresa,
+        localizando as vulnerabilidades existentes.
+        Isso quer dizer que, através dos softwares de monitoramento, é possível identificar malwares e erros antes
+        que eles impactem os processos da sua empresa.
+      </p>
+      <h2>Como a segurança de rede funciona?</h2>
+      <p>
+        Várias linhas de defesa protegem uma rede no perímetro e dentro dela. A segurança começa com o controle de acesso: 
+        políticas e controles que gerenciam não apenas o acesso a uma rede por usuários autorizados, mas também por 
+        dispositivos e dados. Um firewall, que pode ser hardware ou software, é outra linha principal de defesa e separa 
+        a rede de outras redes não confiáveis (como a Internet). Os firewalls monitoram e controlam o tráfego que pode 
+        entrar ou sair da rede. A segurança de rede também usa sistemas de detecção de intrusões e prevenção contra intrusões, 
+        que analisam o tráfego de rede para identificar e responder a ameaças na rede. Um subconjunto importante da segurança 
+        de rede é a segurança de aplicativos, que protege aplicativos da Web e software usados por uma empresa, já que esses 
+        aplicativos geralmente apresentam vulnerabilidades. Várias outras estratégias e tecnologias são usadas para manter a 
+        segurança em data centers, nuvens públicas e muito mais.
+      </p>
+    </section>
+
+    <section id="how-it-works">
+      <h2>Como funciona os ataques de redes</h2>
+      <p>
+        Os principais tipos de ataques são:
+        <strong>
+          DDoS Attack, Port Scanning Attack, Ransomware, Cavalo de Troia, Ataques de força bruta, Phishing,
+          Cryptojacking e ZeroDay.
+        </strong>
+      </p>
+      <p>
+        Confira no vídeo abaixo como funciona os principais tipos de ataques.
+      </p>
+      <div class="video-wrapp">
+        <iframe id="video" src="https://www.youtube.com/embed/5GUqO3WkMjs" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="price">
+      <h2 class="price__title">Conheça nossos planos</h2>
+      <div id="prices">
+        <div class="item">
+          <h2 class="item__price">Mensal</h2>
+          <ol>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+          </ol>
+          <button class="item__button"><a href="#">Select</a></button>
+        </div>
+
+        <div class="item">
+          <h2 class="item__price">Anual</h2>
+          <ol>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+          </ol>
+          <button class="item__button"><a href="#">Select</a></button>
+        </div>
+
+        <div class="item">
+          <h2 class="item__price">Bianual</h2>
+          <ol>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+            <li class="item__description">Lorem ipsum.</li>
+          </ol>
+          <button class="item__button"><a href="#">Select</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletters">
+      <h2>Assine nossa Newsletters</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Digite seu email" required />
+        <input id="submit" type="submit" value="Assinar" class="button" />
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="#">Privacidade</a></li>
+      <li><a href="#">Termos</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <span>Blackbeard´s padlock &copy; - 2021 </span>
+  </footer>
+
+</body>
+
+
+</html>
+<script src='/scripts/bundle.js'></script>
+<script id="rendered-js">
