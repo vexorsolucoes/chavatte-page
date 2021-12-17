@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="./Style/ironMan.css" />
+
+  <!-- BoxIcon -->
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+  <title>Iron Man Website</title>
+</head>
+
+<body>
+  <div class="template">
+    <div class="content__background--mobile"></div>
+    <header id="home" class="head">
+      <div class="logo">
+        <img src="./Assets/ironMan-Icon.svg" alt="" class="logo__icon" /><img src="./Assets/IronMan.png" alt=""
+          class="logo__text" />
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#home"><i class="bx bx-home neonText"></i><span>Inicio</span></a>
+          </li>
+          <li class="menu__item">
+            <a href="#information"><i class="bx bx-book-reader neonText"></i><span>Historia</span></a>
+          </li>
+          <li class="menu__item">
+            <a href="#filmes"><i class="bx bx-tv neonText"></i><span>Videos</span></a>
+          </li>
+          <li class="menu__item">
+            <a href="#feedback"><i class="bx bx-chat neonText"></i><span>Comentarios</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="information" class="content">
+      <section class="content__template">
+        <article>
+          <h1>Você sabia?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Facere illum provident sequi exercitationem,
+            quidem officiis nostrum recusandae unde rem tenetur
+            fugiat atque, nobis soluta, ab adipisci architecto.
+            Ex, ipsa magnam.
+          </p>
+        </article>
+
+        <article>
+          <h1>A história</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Facere illum provident sequi exercitationem,
+            quidem officiis nostrum recusandae unde rem tenetur
+            fugiat atque, nobis soluta, ab adipisci architecto.
+            Ex, ipsa magnam.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Facere illum provident sequi exercitationem,
+            quidem officiis nostrum recusandae unde rem tenetur
+            fugiat atque, nobis soluta, ab adipisci architecto.
+            Ex, ipsa magnam.
+          </p>
+        </article>
+      </section>
+      <section class="content__template">
+        <h1 class="neonText" id="filmes">Filmes</h1>
+        <div class="slider">
+          <div class="slider__slides">
+            <div class="slider__slides__slide" id="slide-1">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/8ugaeA-nMTc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__slides__slide" id="slide-2">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BoohRoVA9WQ?start=6"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="slider__slides__slide" id="slide-3">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ke1Y3P9D0Bc?start=2"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="slider__controls neonText">
+            <a class="slider__controls__control icon" href="#slide-1">1</a>
+            <a class="slider__controls__control icon" href="#slide-2">2</a>
+            <a class="slider__controls__control icon" href="#slide-3">3</a>
+          </div>
+        </div>
+      </section>
+      <fieldset>
+        <form id="feedback" class="form" action="">
+          <legend class="neonText">
+            Gostou? Deixe sua sugestao
+          </legend>
+          <label class="form__label neonText" for="name">Nome:</label>
+          <input class="form__input neonText" required id="name" type="text" />
+          <label class="form__label neonText" required for="commentary">Comentario:</label>
+          <textarea name="commentary" class="neonText" id="commentary" cols="30" rows="8"></textarea>
+          <input class="form__input neonText" type="submit" />
+        </form>
+      </fieldset>
+    </main>
+
+    <footer id="foot">
+      <p class="neonText">
+        Desenvolvido por Alexandre Akira & João Carlos Chavatte
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
