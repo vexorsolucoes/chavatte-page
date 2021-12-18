@@ -16,7 +16,7 @@
 }
 
  .u-section-1-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/cert_back.png?rand=75b8");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/cert_back.png?rand=75b8");
   background-position: 50% 50%;
 }
 
