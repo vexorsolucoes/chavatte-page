@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[FreeCodeCamp] - Projeto 5: Portfólio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav id="navbar" class="menu">
+        <ul class="menu-list">
+          <li>
+            <a class="navbar__menu" href="#welcome-section">Sobre</a>
+          </li>
+          <li>
+            <a class="navbar__menu" href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a class="navbar__menu" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
+      
+      <section id="welcome-section" class="header">
+        <div class="welcome__container">
+          <div class="welcome__item">
+            <img class="welcome__item__avatar" src="./images/Avatar.jpg"/>
+          </div>
+          <div class="welcome__item">
+            <h1 class="welcome__item__title">João Carlos Chavatte</h1>
+            <p class="welcome__item__title__subtilte">Desenvolvedor Web FullStack</p>
+          </div>
+        </div>
+      </section>
+      
+
+      <section id="projects" class="projects-section">
+        <h2 class="project-tile">Meus Projetos</h2>
+        <div class="myprojects">
+          <slicer>
+            <div class="myprojects__title">
+              <h3 class="myprojects__title__text">FreeCodeCamp</h3>
+            </div>
+            <div class="myprojects__image">
+              <img class="myprojects__image__avatar" src="./images/freecodecamp_logo.png"/>
+            </div>            
+            <div class="myprojects__button">
+              <a class="myprojects__button__link" href="https://www.chavatte.online/Projetos---FreeCodeCamp.html" target="_blank" alt="">Acesse</a>
+            </div>
+          </slicer>
+          <slicer>
+            <div class="myprojects__title">
+              <h3 class="myprojects__title__text">AcessaBR - São Carlos - SP</h3>
+            </div>
+            <div class="myprojects__image">
+              <img class="myprojects__image__avatar" src="./images/logo_acessabr.png"/>
+            </div>            
+            <div class="myprojects__button">
+              <a class="myprojects__button__link" href="https://acessabr.chavatte.online/SP/S%C3%A3o%20Carlos" target="_blank" alt="">Acesse</a>
+            </div>
+          </slicer>
+          <slicer>
+            <div class="myprojects__title">
+              <h3 class="myprojects__title__text">e-SHIRT C@SUAL CLOT#ES</h3>
+            </div>
+            <div class="myprojects__image">
+              <img class="myprojects__image__avatar" src="./images/logo_e-shirt.png"/>
+            </div>            
+            <div class="myprojects__button">
+              <a class="myprojects__button__link" href="https://e-shirt-casual-clothes.store/" target="_blank" alt="">Acesse</a>
+            </div>
+          </slicer>
+          <slicer>
+            <div class="myprojects__title">
+              <h3 class="myprojects__title__text">IAUniverse</h3>
+            </div>
+            <div class="myprojects__image">
+              <img class="myprojects__image__avatar" src="./images/logo_iauniverse.png"/>
+            </div>            
+            <div class="myprojects__button">
+              <a class="myprojects__button__link" href="https://iauniverse.home.blog/" target="_blank" alt="">Acesse</a>
+            </div>
+          </slicer>
+          <slicer>
+            <div class="myprojects__title">
+             <h3 class="myprojects__title__text">Vexor - Soluções em TI</h3> 
+            </div>
+            <div class="myprojects__image">
+              <img class="myprojects__image__avatar" src="./images/logo_vexor.png"/>
+            </div>            
+            <div class="myprojects__button">
+              <a class="myprojects__button__link" href="https://www.vexorsolucoes.tech/" target="_blank" alt="">Acesse</a>
+            </div>
+          </slicer>
+          <slicer>
+            <div class="myprojects__title">
+              <h3 class="myprojects__title__text">Market Share</h3>
+            </div>
+            <div class="myprojects__image">
+              <img class="myprojects__image__avatar" src="./images/market_share.png"/>
+            </div>            
+            <div class="myprojects__button">
+              <a class="myprojects__button__link" href="https://www.chavatte.online/Market-Share---Android-e-iOs.html" target="_blank" alt="">Acesse</a>
+            </div>
+          </slicer>
+        </div>
+         </section>
+
+         <section id="contact" class="contact__section">
+          <div class="contact__section__header">
+            <h2>Vamos iniciar um projeto juntos?</h2>
+            
+          </div>
+          <div class="contact__links">
+            <p>Entre em contato</p>
+                  <a
+              id="profile-link"
+              href="https://github.com/chavatte"
+              target="_blank"
+              class="contact__button contact__details"
+              ><i class="fab fa-github-square"></i> GitHub</a
+            >
+            <a
+            href="https://linkedin.com/in/jcchavatte/"
+            target="_blank"
+            class="contact__button contact__details"
+            ><i class="fab fa-linkedin"></i> Linkedin</a
+          >
+            <a
+              href="https://twitter.com/chavatte"
+              target="_blank"
+              class="contact__button contact__details"
+              ><i class="fab fa-twitter-square"></i> Twitter</a
+            >
+            <a
+              href="https://facebook.com/jc.chavatte"
+              target="_blank"
+              class="contact__button contact__details"
+              ><i class="fab fa-facebook-square"></i> Facebook</a
+            >        
+            <a href="contato@chavatte.online" class="contact__button contact__details"
+              ><i class="fas fa-envelope-square"></i> E-mail</a
+            >
+            <a href="https://api.whatsapp.com/send?phone=+5519997004052&text=Deixe%20sua%20mensagem" class="contact__button contact__details"
+              ><i class="fab fa-whatsapp-square"></i> Whatsapp</a
+            >
+          </div>
+        </section>
+
+        <footer>
+          <p class="footer">
+            &copy; Criado e Desenvolvido por:
+            <a href="https://www.freecodecamp.org/chavatte/" target="_blank"
+              ><i class="fab fa-free-code-camp"></i
+            > João Carlos Chavatte </a>
+          </p>
+        </footer>
+
+      
+      
+</body>
+</html>
+<script src='/scripts/bundle.js'></script>
+<script id="rendered-js">
