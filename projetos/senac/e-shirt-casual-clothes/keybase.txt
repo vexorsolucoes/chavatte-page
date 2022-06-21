@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/chavatte
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://e-shirt-casual-clothes.store
+  * I am chavatte (https://keybase.io/chavatte) on keybase.
+  * I have a public key ASBaPFKjcQpYSyoOp1HLnPB13WK9UfLHkK-1ETKERg3Nvgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a8de6e8f1965cc7607151d6d8f59d4892d978d3a7697e144e2aa7d9dfb60692a0a",
+      "host": "keybase.io",
+      "kid": "01205a3c52a3710a584b2a0ea751cb9cf075dd62bd51f2c790afb5113284460dcdbe0a",
+      "uid": "b1897779b6905459416b95bd125eec19",
+      "username": "chavatte"
+    },
+    "merkle_root": {
+      "ctime": 1629625968,
+      "hash": "32847aba4aa0b612036cfe5df20f16afcda66fda0529f6c9de5e9df2d80c6322bd11107221df3cfd744c9692c2a42686e2ed7a317cdee6e92a062f750652c064",
+      "hash_meta": "21b28f5996a522fc7dfc38666befad5c6d4c90e2861075b3940c79deae6dbe55",
+      "seqno": 20612966
+    },
+    "service": {
+      "entropy": "ti4g9hiQilPuMeQThOOCQXp1",
+      "hostname": "e-shirt-casual-clothes.store",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1629626033,
+  "expire_in": 504576000,
+  "prev": "fda1a51321ea139e9d109beafe4916dfbc137a3d6eb176f93b197237665f14ea",
+  "seqno": 69,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgWjxSo3EKWEsqDqdRy5zwdd1ivVHyx5CvtREyhEYNzb4Kp3BheWxvYWTESpcCRcQg/aGlEyHqE56dEJvq/kkW37wTej1usXb5OxlyN2ZfFOrEIJsMdxtphiiuO3mUhxrxu4F/rQUGljV8Qkpoes06ho0FAgHCo3NpZ8RApHt7MFxv8txyY3anpUJb24hiEive/l2UIWzddt/5CKW0nyFLrM92rWIR7Bq3KaZLJd27lWr/QmUdvWVvM/jkDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKoCqtuwimRFA/gDWNnmTXu3tuGFCJD2A1ZXmjkNUcmho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chavatte
+
+==================================================================
